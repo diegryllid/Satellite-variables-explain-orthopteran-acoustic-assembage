@@ -1,2 +1,2 @@
-# Remote-seensed-variables-explain-acoustic-activity-of-a-tropical-Andes-Community
+# Orthopterans acoustics
 Supplementary code for the article
