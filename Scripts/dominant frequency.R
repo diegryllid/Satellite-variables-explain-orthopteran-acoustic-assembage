@@ -16,7 +16,7 @@ data %>% ggplot()+
   geom_smooth(method= "glm", aes(x = Hours, y = Dom), color = "darkgray")+
   geom_text(aes(x = Hours, y = Dom, label = species), size=3.5, 
             hjust=ifelse(data$species=="Katydid4",0.4,0.6),
-            vjust=ifelse(data$species=="Katydid4",1.7,-0.9))+
+            vjust=ifelse(data$species=="Katydid4",1.9,-1.1))+
   scale_color_manual(values = c("#e41a1c","#377eb8","#4daf4a","#984ea3","#ff7f00",
                                 "#c9b030","#a65628"))+
   labs( x ="Acoustic activity span (h)",
